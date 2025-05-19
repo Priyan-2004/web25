@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌡️F To C</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="con">  <h1 style="text-align: center;">Fahernheit <strong>To</strong> Celsius</h1>
+<input type="number" placeholder="F||C" id="fc">
+   <div id="but">
+    <button type="button" onclick="cl()">convert <sup>F</sup></button>
+    <button type="button" onclick="fn()">convert <sup>C</sup></button>
+  </div>
+<br>
+  <h2>Result:<span id='result'>0</span></h2></div>
+
+  <script>
+  function fn(){
+    let num1=document.getElementById('fc').value;
+    let res=5/9*(parseFloat(num1)-32);
+    document.getElementById('result').innerText=res.toFixed(2)+"°C";
+  }
+  function cl(){
+    let num1=document.getElementById('fc').value;
+    let res=9/5*(parseFloat(num1)+32);
+    document.getElementById('result').innerText=res.toFixed(2)+"°F";
+  }
+</script>
+</body>
+</html>

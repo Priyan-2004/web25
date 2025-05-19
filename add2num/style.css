@@ -1,0 +1,45 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.head{
+  background-color: rgb(255, 0, 0);
+  width: 100%;
+  padding: 20px;
+}
+#num1,#num2{
+  background-color: rgb(212, 136, 178);
+  align-content:center;
+  margin: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px white;  
+}
+.continer{
+  padding: 10%;
+  text-align: center;
+  color: white;
+}
+#res{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.but{
+  margin: 10px;
+ width: 200px;
+ height: 25px;
+ transition: 10ms;
+ background-color: lawngreen;
+ border-radius: 50px;
+}
+body{
+background-size: 100%;
+background-color: rgb(0, 0, 0);
+}
+.mar{
+height: 50%;
+}
+.marr{
+  padding-top: 20px;
+
+}

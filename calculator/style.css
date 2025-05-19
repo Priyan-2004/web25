@@ -1,0 +1,38 @@
+.scr{
+  text-align: center;
+  margin-top:10%;
+}
+.but{
+  padding-top: 20px;
+  margin: 10px;
+  color: aqua;
+  cursor: pointer;
+}
+button{
+  height: 50px;
+  width: 60px;
+ background-color: aqua;
+ border-radius: 10px;
+   box-shadow: 10px 10px 10px;
+}
+#cal {
+  width: 300px;
+  height: 60px;
+  font-size: 28px;
+  padding: 10px 15px;
+  border: 2px solid #00bcd4;
+  border-radius: 12px;
+  background-color: #73ceed;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: right;
+  color: #0b0000;
+}
+
+input{
+  font-size: 25px;
+}
+body{
+  background-image: url(https://media1.giphy.com/media/cLNJ2UKfo7CKXQtWgt/giphy.gif?cid=6c09b95254i6zdf208lq7t5dhz5evqvk8qo7at5yvyfr1pi9&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="con">
+        <h2 style="text-align: center;"><strong>Stop Watch</strong></h2>
+    <h3 id="count"><strong>00 : 00 : 00</strong></h3>
+    <button onclick="srt()" >Start</button>
+    <button onclick="stop()">Stop</button>
+     <button onclick="reset()">Reset</button>
+    
+</div>
+     <script>
+            let count=0;
+            let IntervalId;
+        function srt(){
+            IntervalId = setInterval(() => {
+                document.getElementById('count').innerText=++count;
+            }, 1000);
+        }
+        function stop(){
+            clearInterval(IntervalId);
+        }
+        function reset(){
+            clearInterval(count=0);
+              document.getElementById('count').innerText=count;
+        }
+     </script>
+</body>
+</html>
